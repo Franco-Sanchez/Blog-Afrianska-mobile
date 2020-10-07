@@ -94,3 +94,52 @@
         }
     }
 }
+
+@media (max-width: 828px) {
+    .Footer {
+        width: 97.5%;
+        min-height: 817px;
+        margin-top: 172px;
+
+        &-FirstArticle {
+            padding: 3.7% 18.2% 7.4% 11.4%;
+
+            & p {
+                max-width: 333px;
+                margin-top: 6px;
+            }
+
+            & a {
+                width: 24.6%;
+            }
+        }
+
+        &-SecondArticle {
+            padding: 2.2% 27.9% 1.9% 11.4%;
+            grid-template-columns: 50.1% 36.2%;
+            grid-column-gap: 13.7%;
+            grid-row-gap: 29px;
+
+            & h5 {
+                height: 46px;
+                @include flexible(flex-start);
+            }
+
+            & article:nth-child(3), p {
+                grid-column: span 2;
+            }
+
+            & article:nth-child(3) + p {
+                margin-top: 16px;
+            }
+
+            & article:first-child p:nth-child(2) {
+                margin-top: 17px;
+            }
+
+            & article a:nth-child(2) {
+                margin-top: 12px;
+            }
+        }
+    }
+}

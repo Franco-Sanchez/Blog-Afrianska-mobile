@@ -40,3 +40,15 @@
         font-weight: $fontWeigth;
     }
 }
+
+@media (max-width: 828px) {
+    .SecondSection {
+        margin: 0 2.4%;
+        grid-template-columns: 38.1% 59.4%;
+        grid-column-gap: 2.5%;
+
+        & h3 {
+            font-size: 1.1rem;
+        }
+    }
+}
