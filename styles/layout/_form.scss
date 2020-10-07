@@ -22,5 +22,17 @@ input {
 @media (max-width: 828px) {
     form {
         margin: 23px 2.4% 35px 2.4%;
+
+        & div {
+            padding-left: 5.9%;
+            padding-right: 5.9%;
+        }
+    }
+}
+
+@media (max-width: 424px) {
+    form {
+        margin-left: 4.5%;
+        margin-right: 4.5%;
     }
 }

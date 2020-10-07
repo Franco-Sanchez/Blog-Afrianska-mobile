@@ -121,8 +121,7 @@
             grid-row-gap: 29px;
 
             & h5 {
-                height: 46px;
-                @include flexible(flex-start);
+                line-height: 46px;
             }
 
             & article:nth-child(3), p {
@@ -141,5 +140,13 @@
                 margin-top: 12px;
             }
         }
+    }
+}
+
+@media (max-width: 424px) {
+    .Footer {
+        width: 95.3%;
+        min-height: 1141px;
+        margin-top: 82px;
     }
 }

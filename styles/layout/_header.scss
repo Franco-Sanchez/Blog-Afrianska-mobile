@@ -2,3 +2,17 @@ header {
     @include flexible(space-between);
     padding: 49px 6.1%; 
 }
+
+@media (max-width: 828px) {
+    header {
+        padding-left: 7.2%;
+        padding-right: 7.2%;
+    }
+}
+
+@media (max-width: 424px) {
+    header {
+        padding-left: 3.8%;
+        padding-right: 3.8%;
+    }
+}

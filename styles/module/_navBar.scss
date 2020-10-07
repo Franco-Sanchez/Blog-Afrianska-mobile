@@ -10,3 +10,9 @@ ul {
         color: $colorPrimary;
     }
 }
+
+@media (max-width: 424px) {
+    ul {
+        font-size: 0.9rem;
+    }
+}
