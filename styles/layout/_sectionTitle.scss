@@ -18,7 +18,7 @@
     height: 100%;
 }
 
-@media (max-width: 828px) {
+@media (max-width: 1160px) {
     .SectionTitle {
         & p {
             font-size: 1rem;
@@ -27,7 +27,7 @@
     }
 }
 
-@media (max-width: 424px) {
+@media (max-width: 650px) {
     .SectionTitle {
         & p {
             font-size: 0.8rem;

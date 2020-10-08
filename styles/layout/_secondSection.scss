@@ -13,6 +13,7 @@
 
     & img {
         grid-column: 1;
+        height: 100%;
     }
 
     & div:nth-child(13) {
@@ -45,7 +46,7 @@
     }
 }
 
-@media (max-width: 828px) {
+@media (max-width: 1160px) {
     .SecondSection {
         margin: 0 2.4%;
         grid-template-columns: 38.1% 59.4%;
@@ -57,7 +58,7 @@
     }
 }
 
-@media (max-width: 424px) {
+@media (max-width: 650px) {
     .SecondSection {
         margin: 0 4.5%;
         grid-template-columns: 100%;

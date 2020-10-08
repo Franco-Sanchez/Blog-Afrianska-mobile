@@ -67,7 +67,7 @@
     }
 }
 
-@media (max-width: 828px) {
+@media (max-width: 1160px) {
     .FirstSection {
         margin: 0 2.4%;
 
@@ -82,7 +82,7 @@
     
                 & p:nth-child(3) {
                     display: block;
-                    height: 201px;
+                    min-height: 201px;
                 }
             }
 
@@ -114,13 +114,13 @@
     }
 }
 
-@media (max-width: 424px) {
+@media (max-width: 650px) {
     .FirstSection {
         margin: 0 4.5%;
 
         &-FirstContenedor {
             grid-template-columns: 100%;
-            grid-template-rows: auto 314px 211px;
+            grid-template-rows: auto 314px minmax(211px, max-content);
             grid-row-gap: 12px;
             margin-bottom: 28px;
 
@@ -129,7 +129,7 @@
                 & p:nth-child(3) {
                     font-size: 0.9rem;
                     width: 97%;
-                    height: auto;
+                    min-height: auto;
                 }
             }
 
